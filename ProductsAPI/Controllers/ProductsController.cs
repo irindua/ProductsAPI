@@ -11,7 +11,7 @@ namespace ProductsAPI.Controllers
         private readonly IProductRepository _repository;
 
         public ProductsController(IProductRepository repository)
-        {
+        {         
             _repository = repository;
         }
 
